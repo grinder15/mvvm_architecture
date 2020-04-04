@@ -1,4 +1,4 @@
-library mvvm_architecture;
+library mvvmarchitecture;
 
 export 'locator.dart';
 export 'provider_widgets.dart';

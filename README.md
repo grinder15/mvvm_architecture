@@ -1,6 +1,6 @@
-# mvvm_architecture
+# mvvmarchitecture
 
-MVVM widgets based on provider architecture.
+A new Flutter package.
 
 ## Getting Started
 

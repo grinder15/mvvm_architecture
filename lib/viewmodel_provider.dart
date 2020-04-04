@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
-import 'viewmodel.dart';
 import 'locator.dart';
+import 'viewmodel.dart';
 
 @immutable
 class ViewModelProvider<VM extends ViewModel> extends StatefulWidget {
