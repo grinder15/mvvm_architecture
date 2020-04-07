@@ -31,13 +31,3 @@ class _DataProviderElement<T> extends ComponentElement {
     rebuild();
   }
 }
-
-class ProviderBuilder<T> extends StatelessWidget {
-  final Function(BuildContext, T) builder;
-
-  ProviderBuilder({@required this.builder}) : assert(builder != null);
-
-  @override
-  Widget build(BuildContext context) =>
-      builder(context, Provider.of<T>(context));
-}

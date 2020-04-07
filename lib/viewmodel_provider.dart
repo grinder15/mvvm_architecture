@@ -16,6 +16,9 @@ class ViewModelProvider<VM extends ViewModel> extends StatefulWidget {
     this.reuseExisting = false,
   });
 
+  static VM of<VM extends ViewModel>(BuildContext context) =>
+      Provider.of<VM>(context);
+
   @override
   _ViewModelProviderState<VM> createState() => _ViewModelProviderState<VM>();
 }
